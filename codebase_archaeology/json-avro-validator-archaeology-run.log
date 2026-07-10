@@ -1,0 +1,43 @@
+--- Run: 2026-07-10T11:15:00Z ---
+[2026-07-10T11:15:00Z] [INFO] [INIT] Agent started. Repository: kaushikTT/json-avro-validator, Branch: main, Scope: full
+[2026-07-10T11:15:00Z] [INFO] [INIT] Parsed owner: kaushikTT, repo: json-avro-validator, branch: main
+[2026-07-10T11:15:01Z] [INFO] [FOLDER-CHECK] Checking for existing codebase_archaeology folder in branch: main
+[2026-07-10T11:15:01Z] [INFO] [FOLDER-CHECK] Folder not found. Proceeding with full analysis.
+[2026-07-10T11:15:02Z] [INFO] [REPO-METADATA] Step started.
+[2026-07-10T11:15:02Z] [INFO] [REPO-METADATA] Step completed. Repository: kaushikTT/json-avro-validator, Language: Java
+[2026-07-10T11:15:03Z] [INFO] [TECH-STACK] Step started.
+[2026-07-10T11:15:03Z] [INFO] [TECH-STACK] Step completed. Languages: Java 17, Frameworks: Apache Avro 1.11.0
+[2026-07-10T11:15:04Z] [INFO] [FILE-TREE] Step started. Max depth: 4
+[2026-07-10T11:15:04Z] [INFO] [FILE-TREE] Step completed. Directories: 6, Files mapped: 7
+[2026-07-10T11:15:05Z] [INFO] [MODULE-MAP] Step started.
+[2026-07-10T11:15:05Z] [INFO] [MODULE-MAP] Step completed. Modules identified: 1
+[2026-07-10T11:15:06Z] [INFO] [CALL-GRAPH] Step started.
+[2026-07-10T11:15:06Z] [INFO] [CALL-GRAPH] Step completed. Entry points analyzed: 1, Service dependencies: 0, Event flows: 0
+[2026-07-10T11:15:07Z] [INFO] [ARCH-LAYERS] Step started.
+[2026-07-10T11:15:07Z] [INFO] [ARCH-LAYERS] Step completed. Pattern: Single-module utility, Violations: 0
+[2026-07-10T11:15:08Z] [INFO] [OWNERSHIP] Step started.
+[2026-07-10T11:15:08Z] [WARN] [OWNERSHIP] CODEOWNERS file not found. Ownership derived from commit history only.
+[2026-07-10T11:15:08Z] [INFO] [OWNERSHIP] Step completed. Modules mapped: 1, Gaps found: 2
+[2026-07-10T11:15:09Z] [INFO] [CHURN] Step started.
+[2026-07-10T11:15:09Z] [INFO] [CHURN] Step completed. High-churn files identified: 0
+[2026-07-10T11:15:10Z] [INFO] [SCAR-TISSUE] Step started.
+[2026-07-10T11:15:10Z] [INFO] [SCAR-TISSUE] Step completed. Critical files: 0, High files: 0
+[2026-07-10T11:15:11Z] [INFO] [DECISIONS] Step started.
+[2026-07-10T11:15:11Z] [WARN] [DECISIONS] No ADR files found. Decision Intelligence contains PR-based decisions only.
+[2026-07-10T11:15:11Z] [INFO] [DECISIONS] Step completed. ADRs found: 0, Notable PRs: 0
+[2026-07-10T11:15:12Z] [INFO] [KNOWLEDGE-GRAPH] Step started.
+[2026-07-10T11:15:12Z] [INFO] [KNOWLEDGE-GRAPH] Step completed. Entities: 9, Relationships: 10
+[2026-07-10T11:15:13Z] [INFO] [REPO-PUSH] Starting repository push. Branch: main
+[2026-07-10T11:15:13Z] [INFO] [REPO-PUSH] README.md pushed.
+[2026-07-10T11:15:14Z] [INFO] [REPO-PUSH] Report pushed.
+[2026-07-10T11:15:15Z] [INFO] [REPO-PUSH] Log pushed.
+[2026-07-10T11:15:15Z] [INFO] [COMPLETE] Run complete.
+  Analysis type: full
+  Repository: kaushikTT/json-avro-validator
+  Branch: main
+  Duration: 15s
+  Total API calls made: 7
+  Steps completed successfully: 11/11
+  Steps with warnings: 2
+  Steps with errors: 0
+  Output files pushed to repository: codebase_archaeology/json-avro-validator-archaeology-report.md, codebase_archaeology/json-avro-validator-archaeology-run.log
